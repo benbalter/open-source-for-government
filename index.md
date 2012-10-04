@@ -14,13 +14,37 @@ layout: home
 
 ### What is Open Source
 
-foo
+Open source software is a collaborative model of software development whereby the human-readable source code used to produce a given piece of software is made freely available for others to adapt or improve upon as they see fit. Most often (although not always) such development efforts occur publicly, and may involve many disperate groups of developers contributing to the project (rather than a single software firm).
+
+Open source software (sometimes known as free, open source software or FOSS) represents a forward-thinking political philosophy, not an alternate software development workflow or business model. In this context, free refers to free as in speech, not free as in beer. In fact, there's no reason you can't sell open source software, or even make a living producing it. Many large, private sector firms (Facebook, Twitter, Microsoft, Google to name a few) are actually extremely influential members of the open source community.
 
 ### Why Open Source
 
-Bar
+There are lots of arguments in favor of adopting an existing open source project:
+
+* Lower cost - No costly licensing, no vendor lock in
+* Nimble - FOSS often is better and remaining responsive to emerging trends
+* Open - Open standards encourage interoperability. You own your own data; no proprietary formats
+* Fast fixes - The distributed model enables rapid detection and patching of bugs
+* Custimizable - You own the code. Make it do what you want.
+
+The argument in favor of creating an open source project, however, is slightly more nuanced:
+
+Emperically, [open source produces better, more reliable software](http://www.coverity.com/library/pdf/coverity-scan-2011-open-source-integrity-report.pdf). Think about it logically. When you (or your organization) is the only person that's ever going to see something, you're a lot more likely to "just make it work." After all, who would ever know? [^1]
+
+But the same logic that applies to sweeping literal dirt under the rug doesn't apply to writing code. Whereas a rug will always serve to cover the floor, applications evolve over time and code is often constantly reused and repurposed as customers' needs change. Simply put, it's impossible to predict today where your code is going to be a year from now and it's in your best interest to plan accordingly.
+
+Open source hedges this risk by distinguishing generic logic (say posting content online) from application-specific customization (say the use-case-specific presentation of that content). Yet when you're writing with the intention of producing proprietary or one-off code, you do everything in one pass. The true challenge arises when the same problem emerges again in another department, another business unit, or more generally in an even slightly different context. You're reinventing the wheel. You're "open sourcing" (even if within your organization). The solution? Always assume your software is going to be open source, even if you know it's never going to be, and here's why:
+
+Imagine you building a house and the contractor literally nails down all your furniture at the onset, saying you could always remove it before you sell. You'd almost certainly hire a new contractor. Even if you're never going to sell the house, you may want to get a new couch, or at the very least change a room's layout somewhere down the line. Yet software developers do it all the time. Distinguishing unrelated components encourages several coding best practices. In addition to introducing a modular design, meaning additional components could easily be added (or existing components removed) down the line, abstraction often yields objectively more stable and more readably maintainable code due to the abhorrence of the copy-and-paste effect. 
+
+Justice Brandeis is famous for noting that "sunlight is the best disinfectant." Likewise, the transparency afforded by the open-source ethos produces more reliable software.
+
+### Why Open Source and Government
 
 ## Open Source Community Building
+
+Open source is referred to as a community, because that's what it is. Open source isn't a source of free labor or an avenue to sparaticly garner good will, nor is the release of open source software tantamount to the release of a press release or policy document. Open source is about fostering a space in which like-minded enthusiasts — coders, designers, user experience experts, even the users themselves — can come together and create something for their mutual benefit, a something which is almost without exception, greater than the sum of the individual parts. As such, when begining an open source project, special steps must be taken to encourage community involvement.
 
 ### Encouraging Community Involvement
 
