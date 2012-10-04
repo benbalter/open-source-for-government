@@ -42,6 +42,12 @@ Justice Brandeis is famous for noting that "sunlight is the best disinfectant." 
 
 ### Why Open Source and Government
 
+Why not? Think about why we have proprietary software. Google doesn't share the code powering its search algarythm for fear that a competor could benefit. That's their secret sauce. It's be like Coca Cola sharing its secret formula. But outside certain military contexts, there's no competitor. In fact, quite the opposite's the case. If agency X writes a better way to store and publish content, and agency Y adopts it, that's a good thing. It creates an efficiency across government that would not otherwise exist. Put another way, we're all on the same team.
+
+But open source isn't just sharing code among agencies. Imagine if agency X's content organizing code is posted online and a non-profit uses it to launch a new initiative, or a startup uses it to launch a new venture. Again, the agency is not in competition with innovation.
+
+Last, in that same example, let's say as that startup is adopting Agency X's code for their own use, they discover a bug, or a great new feature and contribute it back. Agency X, Agency Y, a startup and a non-profit are now all better off than if Agency X had not released the code.
+
 ## Open Source Community Building
 
 Open source is referred to as a community, because that's what it is. Open source isn't a source of free labor or an avenue to sparaticly garner good will, nor is the release of open source software tantamount to the release of a press release or policy document. Open source is about fostering a space in which like-minded enthusiasts — coders, designers, user experience experts, even the users themselves — can come together and create something for their mutual benefit, a something which is almost without exception, greater than the sum of the individual parts. As such, when begining an open source project, special steps must be taken to encourage community involvement.
@@ -219,10 +225,5 @@ All contributors retain the original copyright to their code, but by contributin
 1. Producing Open Source Software – Karl Fogel (Practical)
 2. The Cathedral and the Bazar – Eric S. Raymond (Theoretical)
 3. Understanding Open Source and Free Software Licensing – Andrew M St. Laurent (O'Reily)
-
-
-# Todo
-
-Free as in beer vs. free as in speech
 
 [^1]: Theoretically, even though the government's contributed code, as a whole, would be bound by the copyleft license, individual blocks of code intirely independent from the parent work, may be removed by the public and used in another project free of restriction. This is an edge case and would only arise in the event of conflict.
