@@ -1,0 +1,4 @@
+server: auto
+safe: true
+pymgemnts: true
+auto: true
