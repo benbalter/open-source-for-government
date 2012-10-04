@@ -3,39 +3,43 @@ permalink: /index.html
 layout: home
 ---
 
-GitHub for the Uninitiated
-==========================
-GitHub is a social code sharing service that allows teams to collaborate among themselves or with the general public. Code is grouped by organizations, which consist of teams, which own repositories. Repositories can be either private or public (open source). In essence, GitHub keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to “fork” existing projects, improve upon them, and then submit their changes back upstream as a “pull request.”
+* Table of Contents
+{:toc}
+ 
+What is Open Source
+-------------------
 
-[Basic info on Git and GitHub](https://help.github.com/)
+
+GitHub for the Uninitiated
+--------------------------
+
+GitHub is a social code sharing service that allows teams to collaborate among themselves or with the general public. Code is grouped by organizations, which consist of teams, which own repositories. Repositories can be either private or public (open source). In essence, GitHub keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to “fork” existing projects, improve upon them, and then submit their changes back upstream as a "pull request."
+
+*Additional Reading: [Introduction to Git and GitHub](https://help.github.com/)*
 
 Private Repositories
-====================
+--------------------
 
-GSA has a paid GitHub organization that can host private repositories. E-mail ben@balter.com if you want a private repository set up for your team. This will allow you to create proprietary / closed source software.
+This will allow you to create proprietary / closed source software.
 
 Public Repositories
-===================
-
-We have http://github.com/Presidential-Innovation-Fellows/ which can serve as the hub for all things PIF open source. Everyone will be added to the organization, and to their respective teams, and we can create unlimited public repositories here. This should be our primary home for code and development.
+-------------------
 
 Public Footprint
-===============
+---------------
 
 GitHub provides a handful of tools to organize projects (internally) and engage with the public. Each repository has a public facing page (powered by the projects readmd.md), a bug tracker (issues), and a wiki. GitHub can also be used to host blogs and microsites using the built in Jekyll engine (and their GitHub pages feature). [More Info](http://pages.github.com/)
 
 Records
-=======
+-------
 
-In order to conform with the necessary records requirements, you must associate your commits with your .gov e-mail address so that notifications are properly captured by your agency’s records management system.
+In order to conform with the necessary records requirements, you must associate your commits with your .gov e-mail address so that notifications are properly captured by your agency’s records management system. You can do this two ways:
 
-If you don’t yet have a GitHub account
---------------------------------------
+### If you don’t yet have a GitHub account
 
 Simply register for a new GitHub account using your .gov e-mail address. Follow the normal instructions to set up Git, setting your Git e-mail address as your .gov address so that all commits are associated with your official account.
 
-If you already have a GitHub account
-------------------------------------
+### If you already have a GitHub account
 
 1. Navigate to the [e-mail settings page](https://github.com/settings/emails) and add and confirm your .gov e-mail address.
 2. Ensure that notifications for the PIF organization go to your .gov account on the [notifications settings page](https://github.com/settings/notifications).
@@ -46,13 +50,15 @@ If you already have a GitHub account
 You can safely use your existing GitHub account and public key, as long as commits are associate with and notifications go to your official e-mail.
 
 Licensing
-=========
+---------
 
 Under 17 U.S.C. § 105, any code created by a government employee on government time is not subject to domestic copyright protection (essentially public domain) and would be licensed as a US Government Work. 
 
 If a project is a derivative work of virally licensed code (e.g., the GPL, the most common open source license), it must be licensed under the same terms as the upstream project (e.g., a WordPress plugin or using a code snippet that was posted under the GPL) and the question of licensing is simple.
 
 If a project does not use any previously licensed code, things can get a bit tricky, especially if you get a pull request from the public (e.g., do contributors surrender the rights to their work by contributing?). It is important to specify the means and terms under which the public can contribute to encourage collaboration. If possible, I would recommend including even a single line of GPL licensed code to simplify things, but you are free to require contributions be licensed under any license, including public domain (although I wouldn’t recommend it). Sample language for a GPL’d project below:
+
+[Example Licenses](licenses/)
 
 Contributing
 ------------
@@ -61,15 +67,3 @@ Federal employees and members of the public are encouraged to contribute to the 
 
 All contributors retain the original copyright to their code, but by contributing to this project, you grant a world-wide, royalty-free, perpetual, irrevocable, non-exclusive, transferable license to all users under the terms of the [Gnu General Public License v2](http://www.gnu.org/licenses/gpl-2.0.html) or later.
 
-License
--------
-
-This project constitutes a work of the United States Government and is not subject to domestic copyright protection under 17 USC § 105.
-
-The project utilizes code licensed under the terms of the GNU General Public License and therefore is licensed under GPL v3 or later.
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/ 
