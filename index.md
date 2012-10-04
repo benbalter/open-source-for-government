@@ -118,13 +118,40 @@ Create an organization. The organization can have an unlimited number of public 
 
 ### Licensing Generally
 
+Licensing concerns itself with two things. (1) Who "owns" the code, and (2) who has the right to use it. When a coder develops code (or a painter paints, or a writer writes) he "owns" the code. Put another way, he holds the code's copyright, or is the code's copyright holder. If the coder would like to let others use his code, he would grant them a "license" to do so. Such a license would confer limited rights or guarantees (e.g., the right to use). This license is generally provided in writing along with the software.
+
+Think about it like renting an appartment. The landlord owns the property, but via your lease, confers upon you certain rights (e.g., the right to live there), but also reserves certain rights (e.g., the right to tear down a wall). Software licensing is no different. The copyright holder holds all rights to the software, and can license out some or all of those rights as he sees fit.
+
+### Copyright
+
+In most open source projects (although not all), copyright is held by the individual code contributors. So, for example, while the Microsoft corporation may own the right to Microsoft Windows (and thus upon purchasing it, you receive a license for its use), the rights to the open-source content managment system, on the otherhand, are held by thousands of individual contributors scattered around the world who echo individually license to you the right to use the software free of charge. License and copyright, although related are wholy distinct.
+
 ### Types of Licenses
+
+Although technically one could create their own license, the open source community has generally adopted a handful of standard licenses. These license are well known and well understood, and make using or contributing to the software easier.
+
+Most licenses do three things. (1) Describe what rights the copyright holder is granting to you, (2) Disclaim that you cant sue the copyright holder if something goes wrong, (3) Require you to include the text of the license if you redistribute it to others.
 
 #### MIT, BSD, Apache
 
-#### GPL
+Some licenses, such as the MIT, BSD, or the Apache license simply serve primarily to clarify that the software's recipient is getting virtually unlimited rights to the software, so long as they include the text of the license if they redistribute it or make a derrivatve work. Such licenses do not heavily restrict use of the software. For example, here's the text of the MIT license:
+
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ 
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+It is important to note that such licenses do not restrict the commercialization of software. If I produce module "foo" and release it under the MIT license, there is nothing stopping another from including that module in software "bar" and selling it under a proprietary (e.g. closed source) license.
+
+#### GPL (Copyleft)
+
+Another large class of licenses are called "Copyleft" licenses. They seek to use copyright law to ensure 
 
 Releasing the project under GPL is done simply by (1) including the text of the license within the repository, (2) posting a boilerplate statement at the top of the main file that notes the licenses and releases subsequent distributors from liability, and (3) noting the license within the project's documentation.
+
+### Derivative Works
+
 
 ### Government-Specific Considerations
 
@@ -136,8 +163,21 @@ If a project does not use any previously licensed code, things can get a bit tri
 
 [Example Licenses](licenses/)
 
-i. Contractor-created code
+#### Contractor-created code
 
+Absent permission from the contracting officer, the US Government retains unlimited rights for all work created under contract. FAR 52.227-14(c)(1)(i). Even if the contracting officer grants such rights, they do not take effect unless the contractor includes a copyright notice, acknowledgement of government sponsorship, and the contract number along with the code at the time of delivery. See FAR 27.404(a)(5).
+
+#### Government-created code
+
+If a government employee contributes to a project on government time and within the scope of his employment, such code is considered a US Government Work. US Government Works are not entitled to copyright protection under US copyright law (commonly known as falling within the "Public Domain") but may receive copyright protection abroad, and thus should still be licensed accordingly. See 17 USC § 105. 
+
+Additionally, if a derivative work under a viral license, the government is still bound by the terms of the original license, thus the project as a whole would be licensed under the original license. Put another way, if a government agency is granted limited rights by a copyright holder to use or redistribute a piece of software under the condition that any contributions to the software be redistributed under the same terms, the government does not have the right to release the software under a less restrictive or incompatable license.[^1]
+
+#### Community-contributed Code
+
+Generally speaking, the government may not accept volunteer services (such as software development) absent appropriate compensation for fear of running afoul of gift restrictions or the Administrative Procedures Act. *See generally* 31 U.S.C. § 1342. This has stymied public code contributions in the past. To mitigate this concern, project documentation should unambiguously declare the license under which the project is distributed (e.g, GPL, MIT) and that any code publicly posted in association with the project (e.g., pull requests, code comments) must be licensed under the same terms (not uncommon in normal open source projects as "terms of contribution"). 
+
+Under such a model, the individual contributor will retain the copyright, and the publicly distributed code becomes legally indistinguishable from other publicly distributed code already used regularly by the government under the same type of open-source license (e.g., Drupal, WordPress, Apache), thus giving us legal authority to accept pull requests and other citizen-generated code.
 
 Contributing
 ------------
@@ -146,6 +186,10 @@ Federal employees and members of the public are encouraged to contribute to the 
 
 All contributors retain the original copyright to their code, but by contributing to this project, you grant a world-wide, royalty-free, perpetual, irrevocable, non-exclusive, transferable license to all users under the terms of the [Gnu General Public License v2](http://www.gnu.org/licenses/gpl-2.0.html) or later.
 
+## Procurement
+
+\[ This is a place holder. Please [feel free to contribute](how-to-contribute/). \]
+
 ## Additional Resources
 
 1. Producing Open Source Software – Karl Fogel (Practical)
@@ -153,3 +197,8 @@ All contributors retain the original copyright to their code, but by contributin
 3. Understanding Open Source and Free Software Licensing – Andrew M St. Laurent (O'Reily)
 
 
+# Todo
+
+Free as in beer vs. free as in speech
+
+[^1]: Theoretically, even though the government's contributed code, as a whole, would be bound by the copyleft license, individual blocks of code intirely independent from the parent work, may be removed by the public and used in another project free of restriction. This is an edge case and would only arise in the event of conflict.
