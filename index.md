@@ -32,7 +32,7 @@ There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor 
 
 #### Starting an Open Source Project
 
-In addition to the efficiencies inherent with a collaborative model (independent code review, communal feature development), empirically, [open source produces better, more reliable software](http://www.coverity.com/library/pdf/coverity-scan-2011-open-source-integrity-report.pdf). Think about it logically. When you (or your organization) is the only person that's ever going to see something, you're a lot more likely to "just make it work." After all, who would ever know? [^1]
+In addition to the efficiencies inherent with a collaborative model (independent code review, communal feature development), empirically, [open source produces better, more reliable software](http://www.coverity.com/library/pdf/coverity-scan-2011-open-source-integrity-report.pdf). Think about it logically. When you (or your organization) is the only person that's ever going to see something, you're a lot more likely to "just make it work." After all, who would ever know?
 
 But the same logic that applies to sweeping literal dirt under the rug doesn't apply to writing code. Whereas a rug will always serve to cover the floor, applications evolve over time and code is often constantly reused and repurposed as customers' needs change. Simply put, it's impossible to predict today where your code is going to be a year from now and it's in your best interest to plan accordingly.
 
@@ -288,8 +288,14 @@ For now, see [Frequently Asked Questions regarding Open Source Software (OSS) an
 5. [Example Readme](example-readme/)
 6. [Licenses](licenses/)
 
-[^1]: Theoretically, even though the government's contributed code, as a whole, would be bound by the copyleft license, individual blocks of code entirely independent from the parent work, may be removed by the public and used in another project free of restriction. This is an edge case and would only arise in the event of conflict.
+<div style="text-align: center" markdown="1">
+
+[![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
 
 &copy; 2012 [Benjamin J. Balter](http://ben.balter.com)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Open Source for Governemnt</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ben.balter.com" property="cc:attributionName" rel="cc:attributionURL">Benjamin J. Balter</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://ben.balter.com/open-source-for-government/" rel="dct:source">http://ben.balter.com/open-source-for-government/</a>.
+Licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
+
+</div>
+
+[^1]: Theoretically, even though the government's contributed code, as a whole, would be bound by the copyleft license, individual blocks of code entirely independent from the parent work, may be removed by the public and used in another project free of restriction. This is an edge case and would only arise in the event of conflict.
