@@ -14,7 +14,7 @@ layout: home
 
 ### What is Open Source
 
-Open source software is a collaborative model of software development whereby the human-readable source code used to produce a given piece of software is made freely available for others to adapt or improve upon as they see fit. Most often (although not always) such development efforts occur publicly, and may involve many disparate groups of developers contributing to the project (rather than a single software firm or a single agency).
+[Open source software](http://en.wikipedia.org/wiki/Open_source) is a collaborative model of software development whereby the human-readable source code used to produce a given piece of software is made freely available for others to adapt or improve upon as they see fit. Most often (although not always) such development efforts occur publicly, and may involve many disparate groups of developers contributing to the project (rather than a single software firm or a single agency).
 
 Open source software (sometimes known as free, open source software or FOSS) represents a forward-thinking political philosophy, not an alternate software development workflow or business model. In this context, the word "free" refers to free as in speech, not "free" as in beer. In fact, there's no reason you can't sell open source software, or even make a living producing it. Many large, private sector firms (Facebook, Twitter, Microsoft, Google to name a few) are actually extremely influential members of the open source community.
 
@@ -22,7 +22,7 @@ Open source software (sometimes known as free, open source software or FOSS) rep
 
 #### Adopting an Open Source Project
 
-There are lots of arguments in favor of adopting an existing open source project over its proprietary counterparts:
+There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor of adopting an existing open source project over its proprietary counterparts. A few of the biggest ones:
 
 * Lower cost - No costly licensing, no vendor lock in
 * Nimble - Often better at remaining responsive to emerging trends
@@ -36,7 +36,7 @@ In addition to the efficiencies inherent with a collaborative model (independent
 
 But the same logic that applies to sweeping literal dirt under the rug doesn't apply to writing code. Whereas a rug will always serve to cover the floor, applications evolve over time and code is often constantly reused and repurposed as customers' needs change. Simply put, it's impossible to predict today where your code is going to be a year from now and it's in your best interest to plan accordingly.
 
-Open source hedges this risk by distinguishing generic logic (say posting content online) from application-specific customization (say the use-case-specific presentation of that content). Yet when you're writing with the intention of producing proprietary or one-off code, you do everything in one pass. The true challenge arises when the same problem emerges again in another department, another business unit, or more generally in an even slightly different context. You're reinventing the wheel. You're "open sourcing" (even if within your organization).
+[Open source hedges this risk](http://ben.balter.com/2012/06/26/why-you-should-always-write-software-as-open-source/) by distinguishing generic logic (say posting content online) from application-specific customization (say the use-case-specific presentation of that content). Yet when you're writing with the intention of producing proprietary or one-off code, you do everything in one pass. The true challenge arises when the same problem emerges again in another department, another business unit, or more generally in an even slightly different context. You're reinventing the wheel. You're "open sourcing" (even if within your organization).
 
 Imagine you building a house and the contractor literally nails down all your furniture at the onset, saying you could always remove it before you sell. You'd almost certainly hire a new contractor. Even if you're never going to sell the house, you may want to get a new couch, or at the very least change a room's layout somewhere down the line. Yet software developers do it all the time. 
 
@@ -52,7 +52,7 @@ Last, in that same example, let's say as that startup is adopting Agency X's cod
 
 More broadly, publicly funded code, is well, the public's code. It'd be like building a highway, but saying only firetrucks and police cars can use it, even though that's only a fraction of its potential. We see this most analogously with research grants in the scientific, academic, and medical communities, and the requirement to publish scholarly works and research findings that result from public funding.
 
-### What Agencies Participates in Open Source?
+### What Agencies Participate in Open Source?
 
 [A lot](http://gsa.github.com/federal-open-source-repos/).
 
@@ -62,7 +62,7 @@ Open source is referred to as a community, because that's what it is. Open sourc
 
 ### Encouraging Community Involvement
 
-Simply making the code public is not enough. Open source developers want to get behind a cause. Think of it as analogous to volunteering for a political campaign. They want to know what the project stands for, and where it is going. If they contribute, what will their code be used for in a six months or a year?  As a result, open source project documentation (readme) commonly includes four primary pieces of information: 
+Simply [making the code public is not enough](http://ben.balter.com/2012/04/10/whats-missing-from-cfpbs-awesome-new-source-code-policy/). Open source developers want to get behind a cause. Think of it as analogous to volunteering for a political campaign. They want to know what the project stands for, and where it is going. If they contribute, what will their code be used for in a six months or a year?  As a result, open source project documentation (readme) commonly includes four primary pieces of information: 
 
 1. A project mission statement, philosophy, or goal,
 2. A features and requirements list, or long-term project roadmap, and most importantly 
@@ -158,6 +158,20 @@ GitHub provides a handful of tools to organize projects (internally) and engage 
 
 GitHub can also be used to host blogs and micro sites using the built in Jekyll engine (and their GitHub pages feature). [More Info](http://pages.github.com/)
 
+### Social Coding
+
+Two things that makes GitHub a bit different from many other code sharing services are the concepts of the fork and pull request. 
+
+#### Forking
+
+A fork is an alternate or parallel copy of a piece of software. Forks are created from public repositories from often unaffiliated developers. A GitHub user may fork a repository because they simply want a snapshot of the code as a simply bookmark, or more commonly, fork the repository in hopes of improving upon it. Even a user does not have permission to write to an agencies repository (e.g., a member of the public), they can always fork the repository, and make the desired changes in their fork without affecting the original.
+
+#### Pull Requests
+
+Pull requests allow other, unaffiliated developers to submit their improvements for consideration by the original project. The project administrators are publicly presented with the changes, along with a forum to discuss them, and can then either choose to accept or reject the proposed improvements. In most cases, once accepted, the changes are automatically merged and the contributor is given credit in the commit log.
+
+It is [perfectly acceptable](http://ben.balter.com/2012/04/15/cfpb-accepts-first-citizen-submitted-pull-request-on-behalf-of-federal-government/) (and even encouraged) for the government to accept pull requests from the public.
+
 ### Records
 
 When it comes to records, the good news about GitHub (and git), is that its chief purpose is to keep track of who made changes to what file when. In order to conform with the necessary records requirements, you must associate your commits with your .gov e-mail address so that notifications are properly captured by your agency's records management system. You can do this two ways:
@@ -230,6 +244,8 @@ Releasing the project under GPL is done simply by (1) including the text of the 
 
 
 ### Government-Specific Considerations
+
+The is [a strong presumption](http://ben.balter.com/2012/07/26/government-release-of-source-code-public-domain-or-open-source/) toward open source in government-produced software.
 
 Under 17 U.S.C. § 105, any code created by a government employee on government time is not subject to domestic copyright protection (essentially public domain) and would be licensed as a US Government Work. 
 
