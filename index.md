@@ -300,6 +300,10 @@ Under such a model, the individual contributor will retain the copyright, and th
 
 For now, see [Frequently Asked Questions regarding Open Source Software (OSS) and the Department of Defense (DoD)](http://dodcio.defense.gov/OpenSourceSoftwareFAQ.aspx)
 
+## Contributing to this document
+
+Federal employees and members of the public are encouraged to contribute to the project. Please see [how to contribute](how-to-contribute/) for more information.
+
 ## Additional Resources
 
 1. Producing Open Source Software – Karl Fogel (Practical)
