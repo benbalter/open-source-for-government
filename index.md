@@ -275,10 +275,15 @@ Under such a model, the individual contributor will retain the copyright, and th
 
 \[ This is a place holder. Please [feel free to contribute](how-to-contribute/). \]
 
+For now, see [Frequently Asked Questions regarding Open Source Software (OSS) and the Department of Defense (DoD)](http://dodcio.defense.gov/OpenSourceSoftwareFAQ.aspx)
+
 ## Additional Resources
 
 1. Producing Open Source Software – Karl Fogel (Practical)
 2. The Cathedral and the Bazar – Eric S. Raymond (Theoretical)
-3. Understanding Open Source and Free Software Licensing – Andrew M St. Laurent (O'Reily)
+3. Understanding Open Source and Free Software Licensing – Andrew M St. Laurent (O'Reilly)
+4. [How to Contribute](how-to-contribute/)
+5. [Example Readme](example-readme/)
+6. [Licenses](licenses/)
 
 [^1]: Theoretically, even though the government's contributed code, as a whole, would be bound by the copyleft license, individual blocks of code entirely independent from the parent work, may be removed by the public and used in another project free of restriction. This is an edge case and would only arise in the event of conflict.
