@@ -58,13 +58,18 @@ Open source is referred to as a community, because that's what it is. Open sourc
 
 ### Encouraging Community Involvement
 
-Simply making the code public is not enough. Open source developers want to get behind a cause. Think of it as analogous to volunteering for a political campaign. They want to know what the project stands for, and where it is going. If they contribute, what will their code be used for in a six months or a year?  As a result, open source project documentation commonly includes three primary pieces of information: 
+Simply making the code public is not enough. Open source developers want to get behind a cause. Think of it as analogous to volunteering for a political campaign. They want to know what the project stands for, and where it is going. If they contribute, what will their code be used for in a six months or a year?  As a result, open source project documentation (readme) commonly includes four primary pieces of information: 
 
 1. A project mission statement, philosophy, or goal,
 2. A features and requirements list, or long-term project roadmap, and most importantly 
 3. The status of the project (active development, beta, etc.)
+4. How to submit an issue/feature request or contribute a fix/enhancement
+
+For help getting started, including other common sections, please see the [example readme](example-readme/).
 
 ### Mechanics
+
+Creating an open-source project requires the project finder to stand up several pieces of critical infrastructure. It's not enough to simply make the code available, for example, as a zip file. Steps must be taken to ensure transparency and conversational, rather than announcement-driven communications. The goal here should be to make it as easy as possible for developers to find the project, grab the code, use it, and potentially contribute back. Most commonly, this infrastructure consists of:
 
 1. Version control, 
 2. Bug tracking ("issues" in GitHub parlance),
@@ -73,7 +78,7 @@ Simply making the code public is not enough. Open source developers want to get 
 
 ### Communications
 
-Beyond the obvious initial announcement, there are several forms of ongoing communication that may require a bit of planning prior to release. Most successful, large-scale projects have a two-way (note: not announcement only) mailing list, to facilitate interaction among developers, as well as an official IRC channel or other real-time chat forum. 
+Beyond the obvious initial announcement publicizing the release, there are several forms of ongoing communication that may require a bit of planning prior to release. Most successful, large-scale projects have a two-way (note: not announcement only) mailing list, to facilitate interaction among developers, as well as an official IRC channel or other real-time chat forum. Alternatively, many projects use the open-source collaboration tool [P2](http://p2theme.com) to coordinate development efforts. The goal here is to provide a means by which developers can communicate with one another (rather than with the agency); to make a web rather than a hub and spoke. If two like-minded developers would like to contribute to a project, they shouldn't have to go through an intermediary (e.g. the agency) to do so.
 
 ### Upkeep
 
@@ -83,11 +88,13 @@ Beyond the code itself, best practices dictate that maintaining an open-source p
 2. Accept or reject pull requests on behalf of the project, and 
 3. Coordinate future releases. 
 
-**Formal governance is bad, etc. It's about agility, stoopid. Link to GitHub post on pushing 150+ times a day.**
+The key here, however, is not to institute a traditional governance structure. Informality is the cornerstone of open source and collaborative development and is the key to its agility. Code commits should be early, often, and public (as apposed to say, committing privately and "open sourcing" once a week). If such a policy were to be overlaid, most if not all the benefits of open source outlined above would be offset by the added overhead.
+
+See also, GitHub as a social network, culture, etc.
 
 ### Governance
 
-Most government projects are governed by a model known by its tongue-and-cheek name "benevolent dictatorship" (as opposed to democratic consensus building). This is not a bad thing. Almost all projects begin this way, and many major projects (including popular projects like Drupal and WordPress) remain this way. 
+Most government projects are governed by a model known by its tongue-and-cheek name "benevolent dictatorship" (as opposed to democratic consensus building). This is not a bad thing. Almost all projects begin this way, and many major projects (including popular projects like Drupal and WordPress) remain this way today. 
 
 The term simply means that ultimate decision-making authority rests in a single individual or groups of individuals, rather than by vote of the community as a whole. To be successful, this model will require significant management and delegation of development efforts around:
 
@@ -97,27 +104,42 @@ The term simply means that ultimate decision-making authority rests in a single 
 4. Issue tracking, and 
 5. Support
 
-## Delegation
+### Delegation
 
-Such a model is arguably the norm for open-source software development, but it must be noted that organization and delegation of such efforts fall squarely on the agency's shoulders. You would be hard-pressed to find a successful open source project that does not have at least one full-time developer or community organizer.
+The benevolent dictatorship model is arguably the norm for open-source software development, but it must be noted that organization and delegation of such efforts fall squarely on the agency's shoulders. You would be hard-pressed to find a successful open source project that does not have at least one full-time developer or community organizer.
 
-## Committer Status
+### Committer Status
 
 In the long term, individual contributors will emerge as key project stakeholders based on the quality and quantity of code contributions and involvement in day-to-day discussions. It is common to grant such contributors committer status (the ability to commit code to the project, accept pull requests, etc.). This is arguably a necessary step for the project's continued evolution.
 
 ## Github
 
-### GitHub for the Uninitiated
+### GitHub Generally
 
-GitHub is a social code sharing service that allows teams to collaborate among themselves or with the general public. Code is grouped by organizations, which consist of teams, which own repositories. Repositories can be either private or public (open source). In essence, GitHub keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to "fork" existing projects, improve upon them, and then submit their changes back upstream as a "pull request."
+GitHub is a social code sharing service that allows teams to collaborate among themselves or with the general public and has quickly become the go-to social network for the open source community, much like Facebook is the primary social network among friends and classmates. Code is grouped by organizations, which consist of teams, which own repositories. Repositories can be either private or public (open source). In essence, GitHub keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to "fork" existing projects, improve upon them, and then submit their changes back upstream as a "pull request."
+
+GitHub is free by default, a tier that will meet most agencies' needs, but has a paid option for those requiring private repositories.
 
 *Additional Reading: [Introduction to Git and GitHub](https://help.github.com/)*
+
+### Culture
+
+Each social network has a different culture, and espouses different values from its users. While posting pictures of a family vacation may be commonplace on Facebook, the same cannot be said for Twitter or Pinterest. Likewise, while providing customer service and interacting directly with customers via Twitter is an every day occurrence, if a major corporation were to try and friend me on Facebook, I'd be a little confused.
+
+GitHub is no different. GitHub is about sharing, but instead of sharing photos or feedback you share code. Notice the word we use here is code, not software. The expectation is not that anyone can go and get a polished piece of software as you might from a big-box retailer. Instead, the expectation is that those that produce the software would release the underlying code early and often in its raw form. Bugs and unpolished work are not only accepted, it's the norm. 
+
+Think about it this way: putting out a press release with a typo (or even an unfinished press release) is embarrassing because the point of the network is to disseminate information from agency to press and erroneous or missing content hinder that end. The point of open source on the other hand is to collaborate in the creation of software. Allowing early adopters to discover bugs, review early project roadmaps, and suggest ways to improve the software *furthers* that end. As a result, openness, transparence and contributions and valued much more highly than refined code and polished documentation.
+
+Put simply, the culture on this social network is not to criticize but to create, and it has [mechanisms to enforce such social norms](https://github.com/WhiteHouse/petition/issues/2).
+
+### Public Repositories
+
+Public repositories are the default on GitHub. Public repositories are free and are freely accessible (to read but not edit) for anyone on the internet. Public repositories are cheap (literally). Do not be afraid to use them to save and store early R&D efforts, thought experiments, or even side projects.
 
 ### Private Repositories
 
 This will allow you to create proprietary / closed source software.
 
-### Public Repositories
 
 ### Public Footprint
 
@@ -212,13 +234,6 @@ Additionally, if a derivative work under a viral license, the government is stil
 Generally speaking, the government may not accept volunteer services (such as software development) absent appropriate compensation for fear of running afoul of gift restrictions or the Administrative Procedures Act. *See generally* 31 U.S.C. § 1342. This has stymied public code contributions in the past. To mitigate this concern, project documentation should unambiguously declare the license under which the project is distributed (e.g, GPL, MIT) and that any code publicly posted in association with the project (e.g., pull requests, code comments) must be licensed under the same terms (not uncommon in normal open source projects as "terms of contribution"). 
 
 Under such a model, the individual contributor will retain the copyright, and the publicly distributed code becomes legally indistinguishable from other publicly distributed code already used regularly by the government under the same type of open-source license (e.g., Drupal, WordPress, Apache), thus giving us legal authority to accept pull requests and other citizen-generated code.
-
-Contributing
-------------
-
-Federal employees and members of the public are encouraged to contribute to the project by [forking](https://help.github.com/articles/fork-a-repo) and submitting a pull request. (If you are new to GitHub, you might start with a [basic tutorial](https://help.github.com/articles/set-up-git).) 
-
-All contributors retain the original copyright to their code, but by contributing to this project, you grant a world-wide, royalty-free, perpetual, irrevocable, non-exclusive, transferable license to all users under the terms of the [Gnu General Public License v2](http://www.gnu.org/licenses/gpl-2.0.html) or later.
 
 ## Procurement
 
