@@ -89,12 +89,12 @@ Beyond the obvious initial announcement publicizing the release, there are sever
 Beyond the code itself, best practices dictate that maintaining an open-source project requires significant day-to-day upkeep and may entail both policy and technical decisions. Agencies should empower a team of trusted developers with decision-making authority to: 
 
 1. Individually respond to any issues opened by users ("tickets"),
-2. Accept or reject pull requests on behalf of the project, and 
+2. Accept or reject [pull requests](#pull-requests) on behalf of the project, and 
 3. Coordinate future releases. 
 
 The key here, however, is not to institute a traditional governance structure. Informality is the cornerstone of open source and collaborative development and is the key to its agility. Code commits should be early, often, and public (as apposed to say, committing privately and "open sourcing" once a week). If such a policy were to be overlaid, most if not all the benefits of open source outlined above would be offset by the added overhead.
 
-See also, GitHub as a social network, culture, etc.
+*See also, [GitHub as a Social Network](#culture).*
 
 ### Governance
 
@@ -120,7 +120,9 @@ In the long term, individual contributors will emerge as key project stakeholder
 
 ### GitHub Generally
 
-GitHub is a social code sharing service that allows teams to collaborate among themselves or with the general public and has quickly become the go-to social network for the open source community, much like Facebook is the primary social network among friends and classmates. Code is grouped by organizations, which consist of teams, which own repositories. Repositories can be either private or public (open source). In essence, GitHub keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to "fork" existing projects, improve upon them, and then submit their changes back upstream as a "pull request."
+[GitHub](http://github.com) is a social code sharing service that allows teams to collaborate among themselves or with the general public and has quickly become the go-to social network for the open source community, much like Facebook is the primary social network among friends and classmates. Code is grouped by organizations, which consist of teams, which own repositories. Repositories can be either [private](#private-repositories) or [public](#public-repositories) (open source). 
+
+GitHub is based on, and extends the social functionality, of an open-source [distributed version control system](http://en.wikipedia.org/wiki/Revision_control) known as [Git](http://en.wikipedia.org/wiki/Git_(software)). In essence, Git keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to "[fork](#forks)" existing projects, improve upon them, and then submit their changes back upstream as a "[pull request](#pull_requests)."
 
 GitHub is free by default, a tier that will meet most agencies' needs, but has a paid option for those requiring private repositories.
 
@@ -287,3 +289,7 @@ For now, see [Frequently Asked Questions regarding Open Source Software (OSS) an
 6. [Licenses](licenses/)
 
 [^1]: Theoretically, even though the government's contributed code, as a whole, would be bound by the copyleft license, individual blocks of code entirely independent from the parent work, may be removed by the public and used in another project free of restriction. This is an edge case and would only arise in the event of conflict.
+
+&copy; 2012 [Benjamin J. Balter](http://ben.balter.com)
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Open Source for Governemnt</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ben.balter.com" property="cc:attributionName" rel="cc:attributionURL">Benjamin J. Balter</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://ben.balter.com/open-source-for-government/" rel="dct:source">http://ben.balter.com/open-source-for-government/</a>.
