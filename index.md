@@ -254,7 +254,7 @@ A derivative work is a legal term of art, but in layman's terms, is any work tha
 
 The term derivative work also applies, more traditionally to forks and improvements upon the original codebase for which the above logic still applies. If I take the WordPress core files, change one line, and then distribute it, I am still bound by the terms of the GPL.
 
-#### Distribution Requirement
+##### Distribution Requirement
 
 Note however, the terms of the GPL don't kick into affect until the software is *distributed*. In that sense, an agency can take a GPL'd piece of software (say Drupal), expand upon it (e.g., by writing a module to produce custom functionality), and are not required to distribute it (e.g., the module may remain closed source).
 
