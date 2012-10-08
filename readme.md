@@ -22,5 +22,7 @@ License
 -------
 
 (C) 2012 [Benjamin J. Balter](http://ben.balter.com)
+
 Code: MIT
+
 Text: CC BY-SA
