@@ -52,6 +52,10 @@ Last, in that same example, let's say as that startup is adopting Agency X's cod
 
 More broadly, publicly funded code, is well, the public's code. It'd be like building a highway, but saying only firetrucks and police cars can use it, even though that's only a fraction of its potential. We see this most analogously with research grants in the scientific, academic, and medical communities, and the requirement to publish scholarly works and research findings that result from public funding.
 
+### What Agencies Participates in Open Source?
+
+[A lot](http://gsa.github.com/federal-open-source-repos/).
+
 ## Open Source Community Building
 
 Open source is referred to as a community, because that's what it is. Open source isn't a source of free labor or an avenue to sporadically garner goodwill from Silicon Valley, nor is the release of open source software tantamount to the release of a press release or policy document. Open source is about fostering a space in which like-minded enthusiasts — coders, designers, user experience experts, even the users themselves — can come together and create something for their mutual benefit, a something that is almost without exception, greater than the sum of the individual parts. As such, when beginning an open source project, special steps must be taken to encourage community involvement.
@@ -136,18 +140,27 @@ Put simply, the culture on this social network is not to criticize but to create
 
 Public repositories are the default on GitHub. Public repositories are free and are freely accessible (to read but not edit) for anyone on the internet. Public repositories are cheap (literally). Do not be afraid to use them to save and store early R&D efforts, thought experiments, or even side projects.
 
+Whereas on a government website it may be strange to have extraneous pages with content that has not be recently updated, public repos are treated differently. They often serve as the conical archive for other efforts, and at the very least, are used to showcase development efforts and creative thinking, no matter how small. As a result, a large presumption **in favor** of creating public repositories and a large presumption **against** deleting or renaming exists.
+
 ### Private Repositories
 
-This will allow you to create proprietary / closed source software.
+Private repositories allow you to create proprietary / closed source software. This could be used in two ways. First, it can be used simply to facilitate in the collaboration of internal tools or other projects that don't really make sense to open source due to their specific nature. Second, it can be used as a staging environment to prepare open source projects for release one they reach a minimum viable product.
 
+Private repos are created on a [free-based pay structure](https://github.com/plans).
 
 ### Public Footprint
 
-GitHub provides a handful of tools to organize projects (internally) and engage with the public. Each repository has a public facing page (powered by the projects readmd.md), a bug tracker (issues), and a wiki. GitHub can also be used to host blogs and micro sites using the built in Jekyll engine (and their GitHub pages feature). [More Info](http://pages.github.com/)
+GitHub provides a handful of tools to organize projects (internally) and engage with the public. Each repository has:
+
+1. A public facing page (powered by the projects readmd.md), 
+2. A bug tracker (issues), and 
+3. A wiki.
+
+GitHub can also be used to host blogs and micro sites using the built in Jekyll engine (and their GitHub pages feature). [More Info](http://pages.github.com/)
 
 ### Records
 
-In order to conform with the necessary records requirements, you must associate your commits with your .gov e-mail address so that notifications are properly captured by your agency's records management system. You can do this two ways:
+When it comes to records, the good news about GitHub (and git), is that its chief purpose is to keep track of who made changes to what file when. In order to conform with the necessary records requirements, you must associate your commits with your .gov e-mail address so that notifications are properly captured by your agency's records management system. You can do this two ways:
 
 #### If you don't yet have a GitHub account
 
@@ -163,12 +176,19 @@ Simply register for a new GitHub account using your .gov e-mail address. Follow 
 
 You can safely use your existing GitHub account and public key, as long as commits are associate with and notifications go to your official e-mail.
 
+Some agency records retention office may also require more detailed records retention plans. Additional methods of ensuring no history is lost may be to use project activity RSS feeds, post-commit hooks to e-mail, or by hooking into the API directly. You can even use the Git repository itself as the formal record. Since the version control is fully distributed, it will contain a copy of each commit. It will not, however, contain GitHub social activity like comments or issues.
+
 ### Terms of Service
 
-There is an existing gov-friendly terms of service ("TOS") which GitHub has already reviewed and signed with the White House, the General Services Administration, the Federal Communications Commission, and the Consumer Financial Protection Bureau. Before using the service you should...
+There is an existing gov-friendly terms of service ("TOS") which GitHub has already reviewed and signed with the White House, the General Services Administration, the Federal Communications Commission, and the Consumer Financial Protection Bureau among others. Before using the service you should double check with your agency's general counsel's office.
 
-F. Accounts
-Create an organization. The organization can have an unlimited number of public projects associated with it, and an unlimited number of both public and undisclosed members with various levels of permissions. Contractors and employees should use their individual accounts to commit code, respond to support forums, etc., just as they would on any other project, or on any other social network. It is arguably GitHub's secret sauce (making coding social as their slogan goes), provides a level of transparency and accountability, and is a long-standing norm in the open-source software community, not to mention, the fundamental software underlying the website. Almost without exception, all government agencies that have released open-source software, both on GitHub and otherwise have followed this model.
+### Accounts
+
+Create an organization. The organization can have an unlimited number of public projects associated with it, and an unlimited number of both public and undisclosed members with various levels of permissions. 
+
+Contractors and employees should use their individual accounts to commit code (rather than say an agency account), respond to support forums, etc., just as they would on any other project, or on any other social network, however to ensure records retention and that the commits come from an official source (e.g., to delineate commits in one's official capacity versus commits in one personal capacity), the account should be associated with a .gov e-mail address as [described above](#records).
+
+It is arguably GitHub's secret sauce (making coding social as their slogan goes), provides a level of transparency and accountability, and is a long-standing norm in the open-source software community, not to mention, the fundamental software underlying the website. Almost without exception, all government agencies that have released open-source software, both on GitHub and otherwise have followed this model. 
 
 ## Licensing
 
