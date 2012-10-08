@@ -89,7 +89,7 @@ Beyond the obvious initial announcement publicizing the release, there are sever
 Beyond the code itself, best practices dictate that maintaining an open-source project requires significant day-to-day upkeep and may entail both policy and technical decisions. Agencies should empower a team of trusted developers with decision-making authority to: 
 
 1. Individually respond to any issues opened by users ("tickets"),
-2. Accept or reject [pull requests](#pull-requests) on behalf of the project, and 
+2. Accept or reject [pull requests](#pull_requests) on behalf of the project, and 
 3. Coordinate future releases. 
 
 The key here, however, is not to institute a traditional governance structure. Informality is the cornerstone of open source and collaborative development and is the key to its agility. Code commits should be early, often, and public (as apposed to say, committing privately and "open sourcing" once a week). If such a policy were to be overlaid, most if not all the benefits of open source outlined above would be offset by the added overhead.
@@ -120,7 +120,7 @@ In the long term, individual contributors will emerge as key project stakeholder
 
 ### GitHub Generally
 
-[GitHub](http://github.com) is a social code sharing service that allows teams to collaborate among themselves or with the general public and has quickly become the go-to social network for the open source community, much like Facebook is the primary social network among friends and classmates. Code is grouped by organizations, which consist of teams, which own repositories. Repositories can be either [private](#private-repositories) or [public](#public-repositories) (open source). 
+[GitHub](http://github.com) is a social code sharing service that allows teams to collaborate among themselves or with the general public and has quickly become the go-to social network for the open source community, much like Facebook is the primary social network among friends and classmates. Code is grouped by organizations, which consist of teams, which own repositories. Repositories can be either [private](#private_repositories) or [public](#public_repositories) (open source). 
 
 GitHub is based on, and extends the social functionality, of an open-source [distributed version control system](http://en.wikipedia.org/wiki/Revision_control) known as [Git](http://en.wikipedia.org/wiki/Git_(software)). In essence, Git keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to "[fork](#forks)" existing projects, improve upon them, and then submit their changes back upstream as a "[pull request](#pull_requests)."
 
@@ -185,7 +185,7 @@ Simply register for a new GitHub account using your .gov e-mail address. Follow 
 #### If you already have a GitHub account
 
 1. Navigate to the [e-mail settings page](https://github.com/settings/emails) and add and confirm your .gov e-mail address.
-2. Ensure that notifications for the PIF organization go to your .gov account on the [notifications settings page](https://github.com/settings/notifications).
+2. Ensure that notifications for the organization go to your .gov account on the [notifications settings page](https://github.com/settings/notifications).
 3. Create a new repository, or clone and navigate to your team's repository on your computer
 4. Configure the repository to use your .gov account by issuing the command `git config user.email your@email.gov` (note, this does not have the `--global` flag as many tutorials suggest, we want the setting to stay within the repository so that commits to other repositories continue to come from your personal account)
 5. Repeat step 4 with each additional repository you contribute to in your official capacity
@@ -238,12 +238,33 @@ It is important to note that such licenses do not restrict the commercialization
 
 #### GPL (Copyleft)
 
-Another large class of licenses are called "Copyleft" licenses. They seek to use copyright law to ensure 
+Another large class of licenses are called "Copyleft" licenses. They seek to use copyright law to ensure that source code remains in the public domain by requiring that derivative works of a copyleft licensed project be released under the same (or compatible) conditions.
 
-Releasing the project under GPL is done simply by (1) including the text of the license within the repository, (2) posting a boilerplate statement at the top of the main file that notes the licenses and releases subsequent distributors from liability, and (3) noting the license within the project's documentation.
+Releasing the project under GPL is done simply by:
 
-### Derivative Works
+1. Including the text of the license within the repository,
+2. Posting a boilerplate statement at the top of the main file that notes the licenses and releases subsequent distributors from liability, and 
+3. Noting the license within the project's documentation.
 
+##### Derivative Works
+
+Any derivative work of a copyleft licensed projects must be released under the same or similar terms. Some popular copyleft licensed projects are WordPress and Drupal, two popular content management systems, both of which are licensed under the GPL.
+
+A derivative work is a legal term of art, but in layman's terms, is any work that requires the former to function. So, in the above example a Drupal or Wordpress theme, plugin or module, which theoretically could not stand alone from the original, would be considered a derivative work if it uses the CMS's API. A stand alone CMS inspired by, but completely unrelated to (say written in a different language), however, would most likely not be considered derivative and could be licensed under any license.
+
+The term derivative work also applies, more traditionally to forks and improvements upon the original codebase for which the above logic still applies. If I take the WordPress core files, change one line, and then distribute it, I am still bound by the terms of the GPL.
+
+#### Distribution Requirement
+
+Note however, the terms of the GPL don't kick into affect until the software is *distributed*. In that sense, an agency can take a GPL'd piece of software (say Drupal), expand upon it (e.g., by writing a module to produce custom functionality), and are not required to distribute it (e.g., the module may remain closed source).
+
+Once the module is distributed however (e.g., posted online, shared with others outside the organization), the GPL requirements kick in and it must be licensed under the term so of the GPL.
+
+### Dual Licensing
+
+Some projects may be dual licensed. This is most often the case when something is offered to the public under the terms of both the GPL **and** and another license such as MIT. In this sense, most developers would chose the less restrictive MIT flavor for their project. However, if I have an existing GPL'd project and am looking to include the software, having the option to use the project under the GPL is attractive and simplifies under what terms I provide my software to others. It also resolves potential incompatibility between your license and the GPL.
+
+To dual license software, simply note in the project's readme that the file is available under both licenses. No additional steps are necessary. When downstream developers use the software, they will chose what license they use it under (again, without taking any additional steps). This is most often the case with add-on frameworks such as jQuery which are likely to be incorporated in existing projects down stream.
 
 ### Government-Specific Considerations
 
