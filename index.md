@@ -268,7 +268,7 @@ To dual license software, simply note in the project's readme that the file is a
 
 ### Government-Specific Considerations
 
-The is [a strong presumption](http://ben.balter.com/2012/07/26/government-release-of-source-code-public-domain-or-open-source/) toward open source in government-produced software.
+There is [a strong presumption](http://ben.balter.com/2012/07/26/government-release-of-source-code-public-domain-or-open-source/) toward open source in government-produced software.
 
 Under 17 U.S.C. § 105, any code created by a government employee on government time is not subject to domestic copyright protection (essentially public domain) and would be licensed as a US Government Work. 
 
