@@ -312,6 +312,7 @@ Federal employees and members of the public are encouraged to contribute to the 
 4. [How to Contribute](how-to-contribute/)
 5. [Example Readme](example-readme/)
 6. [Licenses](licenses/)
+7. [Civic Commons Open Source Guidelines](http://wiki.civiccommons.org/Open_Source_Development_Guidelines)
 
 <div style="text-align: center" markdown="1">
 
