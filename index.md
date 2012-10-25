@@ -84,6 +84,10 @@ Creating an open-source project requires the project finder to stand up several 
 
 Beyond the obvious initial announcement publicizing the release, there are several forms of ongoing communication that may require a bit of planning prior to release. Most successful, large-scale projects have a two-way (note: not announcement only) mailing list, to facilitate interaction among developers, as well as an official IRC channel or other real-time chat forum. Alternatively, many projects use the open-source collaboration tool [P2](http://p2theme.com) to coordinate development efforts. The goal here is to provide a means by which developers can communicate with one another (rather than with the agency); to make a web rather than a hub and spoke. If two like-minded developers would like to contribute to a project, they shouldn't have to go through an intermediary (e.g. the agency) to do so.
 
+### Have the discussion in public
+
+No matter how trivial the issue, make the discussion open. Even if issues are hashed out in-person, memorialize the conversation on the project's official communications channels. This does a few things: First, it creates a record of the decision, so that down the road, you (or more likely other contributors) can understand your reasoning. Second, it helps break down the us/them mentality, by showing the community respect and broadening the decision-making process. Last, and most helpful, engaging the community has the potential to generate more discourse, and thus more ideas and better decision.
+
 ### Upkeep
 
 Beyond the code itself, best practices dictate that maintaining an open-source project requires significant day-to-day upkeep and may entail both policy and technical decisions. Agencies should empower a team of trusted developers with decision-making authority to: 
