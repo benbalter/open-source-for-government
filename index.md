@@ -28,7 +28,7 @@ There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor 
 * Nimble - Often better at remaining responsive to emerging trends
 * Open - Open standards encourage interoperability. You own your own data; no proprietary formats
 * Fast fixes - The distributed model enables rapid detection and patching of bugs
-* Custimizable - You own the code. Make it do what you want
+* Customizable - You own the code. Make it do what you want
 
 #### Starting an Open Source Project
 
