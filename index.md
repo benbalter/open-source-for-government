@@ -12,7 +12,7 @@ layout: home
  
 ## Open Source Generally
 
-### What is Open Source
+### What is Open Source?
 
 [Open source software](http://en.wikipedia.org/wiki/Open_source) is a collaborative model of software development whereby the human-readable source code used to produce a given piece of software is made freely available for others to adapt or improve upon as they see fit. Most often (although not always) such development efforts occur publicly, and may involve many disparate groups of developers contributing to the project (rather than a single software firm or a single agency).
 
