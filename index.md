@@ -128,9 +128,9 @@ In the long term, individual contributors will emerge as key project stakeholder
 
 GitHub is based on, and extends the social functionality, of an open-source [distributed version control system](http://en.wikipedia.org/wiki/Revision_control) known as [Git](http://en.wikipedia.org/wiki/Git_(software)). In essence, Git keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to "[fork](#forks)" existing projects, improve upon them, and then submit their changes back upstream as a "[pull request](#pull_requests)."
 
-GitHub is free by default, a tier that will meet most agencies' needs, but has a paid option for those requiring private repositories.
+GitHub offers free public repositories for open source projects as well as subscription-based private repositories for closed projects. Agencies should create an organization account with GitHub, which can include an unlimited number of individual developer accounts. See [Records](#Records) below for more information.
 
-*Additional Reading: [Introduction to Git and GitHub](https://help.github.com/)*
+*Additional Reading: [Introduction to Git and GitHub](https://help.github.com/), [Setting up Git](https://help.github.com/articles/set-up-git)*
 
 ### Culture
 
@@ -317,6 +317,7 @@ Federal employees and members of the public are encouraged to contribute to the 
 5. [Example Readme](example-readme/)
 6. [Licenses](licenses/)
 7. [Civic Commons Open Source Guidelines](http://wiki.civiccommons.org/Open_Source_Development_Guidelines)
+8. [EPA GitHub HowTo](http://www2.epa.gov/webguide/github-guidance)
 
 <div style="text-align: center" markdown="1">
 
