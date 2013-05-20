@@ -1,6 +1,8 @@
 ---
+published: true
 permalink: /index.html
 layout: home
+
 ---
 
 {% comment %}Trick Maruku into rendering the table of contents which requires an H1 tag within the markdown{% endcomment %}# &nbsp;{.hidden}
