@@ -312,7 +312,7 @@ Federal employees and members of the public are encouraged to contribute to the 
 
 ## Additional Resources
 
-1. Producing Open Source Software – Karl Fogel (Practical)
+1. [Producing Open Source Software](http://producingoss.com/) – Karl Fogel (Practical)
 2. The Cathedral and the Bazar – Eric S. Raymond (Theoretical)
 3. Understanding Open Source and Free Software Licensing – Andrew M St. Laurent (O'Reilly)
 4. [How to Contribute](how-to-contribute/)
