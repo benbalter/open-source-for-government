@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
-    <link href="{{ site.github.url }}/assets/style.css" rel="stylesheet">
+    <link href="{{ site.github.url }}/assets/style.css?v={{ site.github.build_revision }}" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <script src="{{ site.github.url}}/assets/vendor/anchor-js/anchor.min.js"></script>
+    <script src="{{ site.github.url}}/assets/vendor/anchor-js/anchor.min.js?v={{ site.github.build_revision }}"></script>
     <script>anchors.add('h3, h4, h5, h6');</script>
   </body>
 </html>
