@@ -24,18 +24,21 @@
         </h3>
       {% endif %}
 
-      {{ content}}
-
-      <div class="improve">
-        <a class="btn btn-primary btn-lg" href="https://github.com/{{ site.github.repository_nwo }}/edit/gh-pages/{{ page.path }}">
-          Improve this content
-        </a>
+      <div class="row">
+        <div class="col-md-12">
+          {{ content}}
+        </div>
       </div>
 
-      <div class="license">
-        <a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="license">
-          <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0" />
-        </a>
+      <div class="row">
+        <div class="col-md-1 improve">
+          <a class="btn btn-primary btn-lg" href="https://github.com/{{ site.github.repository_nwo }}/edit/gh-pages/{{ page.path }}">Improve this content</a>
+        </div>
+        <div class="col-md-1 col-md-offset-10 license">
+          <a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="license">
+            <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0" />
+          </a>
+        </div>
       </div>
     </div>
 
