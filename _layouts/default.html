@@ -12,7 +12,20 @@
     <div class="container">
       <h1>{{ site.title }}</h1>
       <h2 class="lead">{{ site.description }}</h2>
+      {% if page.title %}
+        <h3>{{ page.title }}</h3>
+      {% endif %}
+
       {{ content}}
+
+      <a href="https://github.com/{{ site.github.repository_nwo }}/edit/gh-pages/{{ page.path }}">
+        Improve this content
+      </a>
+
+      <a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="license">
+        <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0" />
+      </a>
+
     </div>
 
     <script src="{{ site.github.url}}/assets/vendor/anchor-js/anchor.min.js"></script>

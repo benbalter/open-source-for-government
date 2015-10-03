@@ -14,3 +14,8 @@ defaults:
 
 exclude:
   - vendor
+
+collections:
+  docs:
+    output: true
+    permalink: /:path/
