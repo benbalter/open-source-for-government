@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link href="{{ site.github.url }}/assets/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <h2 class="lead">{{ site.description }}</h2>
+      {{ content}}
+    </div>
+
+    <script src="{{ site.github.url}}/assets/vendor/anchor-js/anchor.min.js"></script>
+    <script>anchors.add('h2, h3, h4, h5, h6');</script>
+  </body>
+</html>
