@@ -1,0 +1,23 @@
+{
+  "name": "open-source-for-government",
+  "version": "1.0.0",
+  "homepage": "https://github.com/benbalter/open-source-for-government",
+  "authors": [
+    "Ben Balter <ben.balter@github.com>"
+  ],
+  "description": "A collaborative resource for government employees looking to participate in the open source community",
+  "main": "",
+  "moduleType": [],
+  "license": "CC0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "anchor-js": "~1.3.0"
+  }
+}
