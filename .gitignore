@@ -10,3 +10,4 @@ assets/vendor/**/*.txt
 assets/vendor/bootstrap-sass/assets/javascripts/
 node_modules
 .sass-cache
+Gemfile.lock
